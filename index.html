@@ -19,18 +19,18 @@
 		<section class="midsection">
 
 			<form>
-				<input type="text" placeholder="Chicken livers!"> 
-				<button class="btn btn-success">Add to shopping list</button>
+				<input id="item" type="text" placeholder="Chicken livers!"> 
+				<button id="addbutton" class="btn btn-success">Add to shopping list</button>
 			</form>
 
 			<div class="list-container">
 			
 			<ul class="list">
-				<li>Beer    <i class="fa fa-check-circle"></i> <i class="fa fa-minus-circle"></i></li>
-				<li>Soup    <i class="fa fa-check-circle"></i> <i class="fa fa-minus-circle"></i></li>
-				<li>Soap    <i class="fa fa-check-circle"></i> <i class="fa fa-minus-circle"></i></li>
-				<li class="strikeout">Rice    <i class="fa fa-check-circle"></i> <i class="fa fa-minus-circle"></i></li>
-				<li class="strikeout">Snails    <i class="fa fa-check-circle"></i> <i class="fa fa-minus-circle"></i></li>
+				<li><span>Beer</span><i class="fa fa-check-circle"></i> <i class="fa fa-minus-circle"></i></li>
+				<li><span>Soup</span><i class="fa fa-check-circle"></i> <i class="fa fa-minus-circle"></i></li>
+				<li><span>Soap</span><i class="fa fa-check-circle"></i> <i class="fa fa-minus-circle"></i></li>
+				<li><span class="strikeout">Rice</span><i class="fa fa-check-circle"></i> <i class="fa fa-minus-circle"></i></li>
+				<li><span class="strikeout">Snails</span><i class="fa fa-check-circle"></i> <i class="fa fa-minus-circle"></i></li>
 			</ul>
 				
 
@@ -43,5 +43,8 @@
 			
 		</footer>
 		
+		 <script src="//code.jquery.com/jquery-latest.min.js"></script>
+		 <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" type="text/javascript" charset="utf-8" async defer></script>
+		 <script src="js/main.js" type="text/javascript" charset="utf-8" async defer></script>
 	</body>
 </html>
