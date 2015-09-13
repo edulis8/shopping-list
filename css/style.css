@@ -43,7 +43,7 @@ header {
 
 .list-container {
 	font-family: 'Sura', sans-serif;
-	font-size: 16px;
+	font-size: 18px;
 	max-width: 400px;
 	height: 600px;
 	border: 3px dashed black ;
@@ -51,6 +51,7 @@ header {
 	background-color: #DC9364;
 	opacity: 0.8;
 	border-radius: 8px;
+
 	
 }
 
@@ -70,6 +71,14 @@ li {
 	margin-left: 10px;
 }
 
+.fa-check-circle:hover {
+	color: #F5F0DA;
+}
+
+.fa-minus-circle:hover {
+	color: #F5F0DA;
+}
+
 ul {
 	list-style-type: none;
 }
@@ -77,3 +86,27 @@ ul {
 .strikeout {
 	text-decoration: line-through;
 }
+
+footer {
+	height: 100px;
+	width: 100%;
+	background-color: #71A184;
+	margin-top: 30px;
+}
+
+.btn {
+	background-color: #E1655A;
+	font-family: 'Hind Vadodara', serif;
+	color: ghostwhite;
+	border: 2px double;
+}
+
+.btn:hover {
+	background-color: #71A184;
+}
+
+input {
+	background-color: ghostwhite;
+	border-radius: 10px;
+}
+
