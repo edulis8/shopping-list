@@ -1,0 +1,79 @@
+/*
+
+'Hind Vadodara', sans-serif;
+'Sura', serif;
+*/
+
+
+
+html {
+  box-sizing: border-box;
+  
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+	background-color: #F5F0DA;
+}
+
+h1 {
+	font-size: 180px;
+	color: #3D252C;
+	margin-top: 0;
+}
+
+h2 {
+	color: #3D252C;
+	padding: 0 0 12px;
+	font-family: 'Hind Vadodara', sans-serif;
+}
+
+header {
+	margin: 0;
+	background-color: #71A184;
+	text-align: center;
+}
+
+.midsection {
+	text-align: center;
+}
+
+.list-container {
+	font-family: 'Sura', sans-serif;
+	font-size: 16px;
+	max-width: 400px;
+	height: 600px;
+	border: 3px dashed black ;
+	margin: 10px auto;
+	background-color: #DC9364;
+	opacity: 0.8;
+	border-radius: 8px;
+	
+}
+
+.list {
+	margin-top: 10px;
+	text-align: right;
+	margin-right: 160px;
+}
+
+li {
+
+	border-radius: 10px;
+
+}
+
+.fa-check-circle {
+	margin-left: 10px;
+}
+
+ul {
+	list-style-type: none;
+}
+
+.strikeout {
+	text-decoration: line-through;
+}
