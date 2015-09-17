@@ -49,7 +49,7 @@ $(document).ready(function() {
 
 	$('#checkout').click(function(event) {
 		$('.msg').hide();
-		$('.list-container').append("<p class='msg'>Items will be delivered to your house by drone in 15 minutes. Total cost: $1,000.<br> <small>(Pay the drone. You do note want to piss off the drone.)</small></p>");
+		$('.list-container').append("<p class='msg'>Items will be delivered to your house by drone in 15 minutes. Total cost: $1,000.<br> <small>(Pay the drone. You do *not* want to piss off the drone.)</small></p>");
 	});
 
 
